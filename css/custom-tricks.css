@@ -1,0 +1,143 @@
+#publication-text-orange a:link {
+	color: #F05408 !important;
+}
+#publication-text-orange a:visited {
+	color: #F05408 !important;
+}
+#publication-text-orange a:hover {
+	color: #F05408 !important;
+}
+#publication-text-orange a:active {
+	color: #F05408 !important;
+}
+.mini-orcid-icon-16 {
+    background: url(../img/orcid.png) no-repeat;
+    background-size: 14px 14px;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+		white-space:nowrap;
+    margin: -2px 0 -2px 2px;
+}
+
+.orcid {
+	background: url(../img/orcid.png) no-repeat;
+	background-size: 14px 14px;
+	width: 14px;
+	height: 14px;
+}
+.iwt{
+	display: inline-block;
+}
+
+.text-orange{
+	color: #F05408 !important;
+}
+
+.latex sub {
+  vertical-align: -0.1ex;
+  margin-left: -0.1667em;
+  margin-right: -0.025em;
+}
+
+.xetex sub {
+  vertical-align: -0.1ex;
+  margin-left: -0.1667em;
+  margin-right: -0.125em;
+}
+
+.latex sub, .latex sup, .xetex sub {
+  font-size: 0.9em;
+  text-transform:uppercase;
+
+}
+.latex sup {
+  font-size: 0.85em;
+  vertical-align: -0.2em;
+  margin-left: -0.26em;
+  margin-right: -0.05em;
+}
+/*.text-orange:link{
+	color: orange;
+}
+.text-orange:hover{
+	color: orange;
+}
+.text-orange:visited{
+	color: orange;
+}
+.text-orange:active{
+	color: orange;
+}*/
+
+.fa-github:hover {
+    color: #4078c0;
+}
+.ai-researchgate:hover {
+    color: #0cb;
+}
+.fa-linkedin-in:hover {
+    color: #0077B5;
+}
+.ai-mendeley:hover {
+    color: #A11B1B;
+}
+.fa-twitter:hover {
+    color: #4099FF;
+}
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code {
+    border-radius: 3px;
+}
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+.bs-callout-default {
+    border-left-color: #777;
+}
+.bs-callout-default h4 {
+    color: #777;
+}
+.bs-callout-primary {
+    border-left-color: #428bca;
+}
+.bs-callout-primary h4 {
+    color: #428bca;
+}
+.bs-callout-success {
+    border-left-color: #5cb85c;
+}
+.bs-callout-success h4 {
+    color: #5cb85c;
+}
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+.bs-callout-danger h4 {
+    color: #d9534f;
+}
+.bs-callout-warning {
+    border-left-color: #f0ad4e;
+}
+.bs-callout-warning h4 {
+    color: #f0ad4e;
+}
+.bs-callout-info {
+    border-left-color: #5bc0de;
+}
+.bs-callout-info h4 {
+    color: #5bc0de;
+}
