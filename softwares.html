@@ -158,8 +158,53 @@
 						</p>
 					</div>
 				</div>
-        <h3 class="text-muted">RECLUSTOR</h3>
+        <h3 class="text-muted">ReClustOR</h3>
       <hr>
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-6">
+          <div class="bs-callout bs-callout-default">
+            <h4>BACKGROUND</h4>
+            <p class="text-justify">
+Environmental microbial communities are now widely studied using metabarcoding approaches, thanks to the democratization of high-throughput DNA sequencing technologies. The massive number of reads produced with these technologies requires bioinformatic solutions to be treated. A key step in the analysis is to cluster reads into Operational Taxonomic Units (or OTUs) and thus reduce the amount of data for downstream analyses. Due to the important impact of the clustering method on the quantity and quality of OTUs, finding an equilibrium between the reliability and time-consuming nature of the chosen strategy is a real challenge. The present article proposes a new post-clustering tool called ReClustOR aimed at improving the stability and reliability of OTUs whatever the initial clustering method.
+            </p>
+            <h4>RESULTS</h4>
+            <p class="text-justify">
+              We compared several clustering methods: a homemade de novo method, VSEARCH, Swarm and ReClustOR associated with these three clustering methods, and the ESV definition, using two datasets (a simulated one and an environmental one). All methods were analysed for their ability to efficiently describe microbial diversity in terms of alpha-diversity, beta-diversity and phylogeny.
+              Dataset analysis showed that post-clustering with ReClustOR improved OTU detection not only in terms of diversity, but also in terms of reliability and stability as compared to the initial clustering methods. More precisely, the post-clustering step improved the congruence of the results (alpha-diversity, beta-diversity, composition) whatever the initial clustering method. Moreover, ReClustOR, by defining a database of centroids, precludes the need to re-cluster all the reads each time when new reads are generated.
+            </p>
+            <h4>CONCLUSIONS</h4>
+            <p class="text-justify">
+ReClustOR is a new post-clustering method that overcomes problems (OTU stability and reliability) associated with classical clustering methods and thereby increases the quality and the congruence of the reconstructed OTUs. Moreover, the OTU database defined with ReClustOR can be used as a reference gradually enriched by merging new studies and samples. In this way, huge datasets (e.g. the Earth Microbiome Project or the Tara Oceans project) can be used as references for other projects within their range of application, and increase the quality of comparisons among studies and datasets.
+            </p>
+          </div>
+            <div class="panel panel-default">
+              <div class="panel-heading"><strong>How to cite</strong></div>
+              <div class="panel-body">
+            <u>ReClustOR: a re-clustering tool using an open-reference method that improves operational taxonomic unit definition</u> Sébastien Terrat, <strong>Djemiel, C.</strong>, Corentin Journay, Battle Karimi, Samuel Dequiedt, Walid Horrigue, Pierre-Alain Maron, Nicolas Chemidlin Prévost-Bouré, Lionel Ranjard. Methods in Ecology and Evolution, 11.1 (2020): 168-180.<i class="fas fa-file-pdf fa-fw" aria-hidden="true"></i><a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13316" target="_blank" class="text-orange"> Paper </a> <i class="fas fa-external-link-alt fa-fw" aria-hidden="true"></i><a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13316" target="_blank" class="text-orange"> Website </a> <a class="headingCV text-orange">abstract <i class="fas fa-caret-down" aria-hidden="true"></i></a>
+            <div class="alert alert-info contentCV" role="alert">
+              <p class="text-justify">
+                @article{terrat2020reclustor,
+                  title={ReClustOR: a re-clustering tool using an open-reference method that improves operational taxonomic unit definition},
+                  author={Terrat, S{\'e}bastien and Djemiel, Christophe and Journay, Corentin and Karimi, Battle and Dequiedt, Samuel and Horrigue, Walid and Maron, Pierre-Alain and Chemidlin Pr{\'e}vost-Bour{\'e}, Nicolas and Ranjard, Lionel},
+                  journal={Methods in Ecology and Evolution},
+                  volume={11},
+                  number={1},
+                  pages={168--180},
+                  year={2020},
+                  publisher={Wiley Online Library}
+                }
+              </p>
+              </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6">
+          <p>
+            <br>
+          <img src="img/jvenn.png" class="img-responsive" alt="jvenn_example">
+          </p>
+        </div>
+      </div>
 			</div>
       <div class="col-xs-3 col-sm-3 col-md-3">
         <br>
